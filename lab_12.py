@@ -16,7 +16,6 @@ class Pet:
 	def get_age(self):
 		return self.age
 
-
 def get_info(pet):
 	pet.set_name(input("Enter your pet's name: \n"))
 	pet.set_type(input("Enter your pet's type: \n"))
